@@ -1,12 +1,12 @@
 {
-    "name": "New Controls",
+    "name": "BallSpawn",
     "maps": [
         {
-            "name": "Righthand",
+            "name": "Quit",
             "id": "9eac5982-9867-413f-9a5f-cf3cee14a124",
             "actions": [
                 {
-                    "name": "SpawnBall",
+                    "name": "Quit",
                     "type": "Button",
                     "id": "0e6fc08d-75a7-4850-bda1-dba5a7f58dc5",
                     "expectedControlType": "Button",
@@ -19,11 +19,11 @@
                 {
                     "name": "",
                     "id": "e4641fe1-4f09-497e-80ba-cf4d316ae9f9",
-                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "path": "<XRController>{LeftHand}/menu",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "SpawnBall",
+                    "action": "Quit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

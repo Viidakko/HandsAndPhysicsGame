@@ -4,15 +4,10 @@ using UnityEngine.InputSystem;
 
 public class SpawnerScript : MonoBehaviour
 {
-    public InputActionReference action;
     public GameObject ball;
 
-    private void Start()
+    public void SpawnBall()
     {
-        action.action.Enable();
-        action.action.performed += (ctx) =>
-        {
-            Instantiate(ball, transform.position, Quaternion.identity);
-        };
+        Instantiate(ball, transform.position, Quaternion.identity);
     }
 }
