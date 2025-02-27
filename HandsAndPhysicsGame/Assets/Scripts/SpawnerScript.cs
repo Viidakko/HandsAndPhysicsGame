@@ -1,6 +1,4 @@
-using UnityEditor.AnimatedValues;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class SpawnerScript : MonoBehaviour
 {
